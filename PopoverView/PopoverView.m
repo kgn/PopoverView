@@ -919,7 +919,7 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     //// Shadow Declarations
-    UIColor* shadow = [UIColor colorWithRed:1.f green:1.f blue:1.f alpha:kShadowAlpha];
+    UIColor* shadow = [UIColor colorWithWhite:0 alpha:kShadowAlpha];
     CGSize shadowOffset = CGSizeMake(0, 1);
     CGFloat shadowBlurRadius = 10;
     
